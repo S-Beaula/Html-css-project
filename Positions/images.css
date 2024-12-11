@@ -1,0 +1,33 @@
+.images,.images-1{
+    display: flex;
+}
+img{
+    gap:20px;
+    left: 500px;
+}
+.img-1 {
+    left: 500px;
+    position: relative;
+    top: 5rem;
+    left: 20rem;
+}
+.img-2{
+    position: relative;
+    top:5rem;
+    left:40rem
+}
+.img-3{
+    position: relative;
+    top:7rem;
+    left:32rem
+}
+.img-4{
+    position: relative;
+    top:10rem;
+    left:20rem
+}
+.img-5{
+    position: relative;
+    top:10rem;
+    left:40rem
+}

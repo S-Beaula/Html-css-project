@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+.parent{
+    position: fixed;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+}
+.child-2{
+    display: flex;
+   gap: 20px;
+}
+.p{
+    position: absolute;
+    top: 20%
+}
+
+/* div{
+    background-color: aquamarine;
+}
+p{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+.p1{
+    background-color: cadetblue;
+    top:0px;
+    position: sticky;
+    left: 200px;
+
+} */

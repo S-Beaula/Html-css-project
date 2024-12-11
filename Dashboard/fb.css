@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+    color: darkgray;
+    font-weight: bolder;
+    flex-grow: 10;
+}
+.select{
+    width:200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.select:hover{
+    color: orange;
+}

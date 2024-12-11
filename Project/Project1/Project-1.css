@@ -1,0 +1,453 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+video{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.header1{
+    display: flex;
+}
+.header1 > .headerleft{
+    text-transform: uppercase;
+    padding: 17px 0px;
+    padding-left: 3%;
+    font-size: 35px;
+    color:white;
+}
+.header1 > .headerright{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    padding-left: 27%;
+}
+.header1 > .headerright > a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.header1 > .headerright > input{
+    display: none;
+}
+.header1 > .headerright > span > i{
+    color: white;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+.searchbar > select{
+    width: 150px;
+    height: 50px;
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+    border: 1px solid navy;
+}
+.searchbar > select > option{
+    background-color: navy;
+    color: white;
+}
+.searchbar > input{
+    width: 800px;
+    height: 50px;
+    font-size: 17px;
+    padding: 0px 20px;
+    border: 1px solid white;
+}
+.searchbar > i{
+    font-size: 25px;
+    position: relative;
+    left: -40px;
+}
+.elements{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    position: relative;
+    top: 350px;
+    left: 185px;
+}
+.elements > select{
+    display: flex;
+    font-size: 1rem;
+    border: 0px;
+    color: white;
+}
+.elements > select > option{
+    color: black;
+}
+.elements > label{
+    font-size: 20px;
+    color: white;
+}
+.elements > .element1{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+}
+.elements > .element2{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+}
+.elements > .element3{
+    width: 150px;
+    height: 40px;
+    background: transparent;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.main > h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    padding: 50px;
+    color: rgb(5, 5, 61);
+}
+.main > .main1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    column-gap: 30px;
+    font-size: 17px;
+    border-bottom: 1px solid lightgray;
+}
+.main > .main1 > p{
+    text-decoration: underline ;
+}
+.main > .main1 > a{
+    text-decoration: none;
+    color: black;
+}
+.main > .main1 > a:hover{
+    text-decoration: underline;
+}
+.heading{
+    padding: 5px;
+    color: rgb(0, 0, 32);
+}
+.subheading{
+    padding: 5px;
+    color: rgb(0, 0, 32);
+}
+.imageheading{
+    width: 93%;
+    height: 450px;
+    margin: 50px 0px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.main > .main2{
+    padding: 5px 0px;
+    display: flex;
+    column-gap: 40px;
+}
+.card{
+    width: 100%;
+    height: 555px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 600px;
+}
+.card > .cards{
+    width: 22%;
+    height: 500px;
+}
+.cards:hover{
+    background-color: rgb(7, 71, 18);
+    color: white;
+}
+.card > .cards > img{
+    width: 100%;
+    object-fit: contain;
+}
+.card > .cards > p{
+    padding: 10px 13px;
+    font-size: 2rem;
+    /* color: rgb(4, 4, 58); */
+}
+.card > .cards > p:hover{
+    color: white;
+}
+.card > .cards > a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 13px;
+}
+.card > .cards > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box > img{
+    width: 92%;
+}
+.box > .box1{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.box > .box1 > a{
+    color: white;
+    text-decoration: none;
+}
+.box > .box1 > a:hover{
+    text-decoration: underline;
+}
+.container{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.container > h1{
+    padding-bottom: 30px;
+    color: rgb(4, 4, 53);
+    font-size: 50px;
+    font-weight: lighter;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.container1 > a{
+    text-decoration: none;
+    color: black;
+}
+.container1 > a:hover{
+    text-decoration: underline;
+}
+.article{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-bottom: 100px;
+}
+.leftarticle{
+    width: 43%;
+    height: 580px;
+    border-bottom: 1px solid lightgray;
+}
+.leftarticle > img{
+    width: 100%;
+    height: 450px;
+}
+.leftarticle > .p1{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.leftarticle > .p2{
+    padding: 15px 0px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.leftarticle:hover{
+    background-color: rgb(3, 3, 49);
+    color: white;
+}
+.rightarticle{
+    width: 46.5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.rightarticle > .smallarticle{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.rightarticle > .smallarticle > img{
+    width: 40%;
+}
+.rightarticle > .smallarticle > div{
+    width: 60%;
+}
+.rightarticle > .smallarticle > div{
+    width: 100%;
+}
+.rightarticle > .smallarticle > div > .p3{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.rightarticle > .smallarticle > div > .p4{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.bookimage{
+    width: 92%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left: 55px;
+    background-image: url(https://www.datocms-assets.com/108926/1708497196-artboard-2.png?auto=format&w=2028);
+    background-size: 100%;
+    margin-bottom: 50px;
+}
+.bookimage > .imagelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 50px;
+}
+.bookimage > .imagelogo > img{
+    width: 80%;
+    height: 70%;
+}
+.bookimage > .content{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.bookimage > .content > h1{
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(3, 3, 43);
+}
+.bookimage > .content > p{
+    color: rgb(4, 4, 46);
+}
+.bookimage > .content > div{
+    display: flex;
+    column-gap: 30px;
+}
+.bookimage > .content > div > a{
+    text-decoration: none;
+    color: rgb(2, 2, 22);
+}
+.bookimage > .content > div > a:hover{
+    text-decoration: underline;
+}
+.logoimage{
+    width: 100%;
+    height: 700px;
+}
+.logoimage > img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.logoimage > p{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+}
+.logoimage > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -320px;
+    left: 620px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(4, 4, 65);
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.footer1 > p{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 20px 0px;
+}
+.footer1 > a{
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+}
+.footer1 > a:hover{
+    text-decoration: underline;
+}
+.signin{
+    background-color: rgb(4, 4, 65);
+    width: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-areas: 
+    "one two"
+    "three three"
+    "four four" ; */
+}
+.signin > .left > p{
+    font-size: 20px;
+    padding: 20px 30px;
+    color: white;
+}
+.signin > .left > input{
+    background-color: rgb(4, 4, 65);
+    margin: 20px 30px;
+    border: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+[placeholder="First Name*"]{
+    /* grid-area: one; */
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+[placeholder="Last Name*"]{
+    /* grid-area: two; */
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+[placeholder="Email*"]{
+    /* grid-area: three; */
+    grid-row: 2/3;
+    grid-column: 4/4;
+}
+[placeholder="Phone*"]{
+    /* grid-area: four; */
+    grid-row: 3/3;
+    grid-column: 4/4;
+}

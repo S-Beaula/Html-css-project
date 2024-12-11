@@ -1,0 +1,20 @@
+h3{
+    color:  orange;
+}
+h4{
+    display: flex;
+}
+h5{
+    background-color: aquamarine;
+    color: green;
+    width:fit-content;
+    height: auto;
+    flex-grow: 5;
+}
+.card{
+    background-color: white;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    width: 90vw;
+    height: auto;
+}

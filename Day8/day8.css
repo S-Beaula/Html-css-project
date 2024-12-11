@@ -1,0 +1,13 @@
+
+div{
+    width:200px;
+    height: 200px;
+    background-color: aqua;
+}
+div:hover{
+    background-color: paleturquoise;
+    color:rgb(238, 75, 15);
+}
+/* p{
+    color: aliceblue;
+} */

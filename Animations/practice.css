@@ -1,0 +1,117 @@
+div,p{
+    background:linear-gradient(red,green,yellow,purple);
+    width: 100px;
+    height: 100px;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    animation-name:rotateDiv;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+#div{
+    animation-name:rotateDiv;
+}
+#p{
+    animation-name: rotatep;
+}
+/* @keyframes rotateDiv{
+    0%{
+        background-color: red;
+        width: 0vw;
+        height: 0vh;
+    }
+    25%{
+        background-color: yellow;
+        width: 25vw;
+        height: 25vh;
+    }
+    50%{
+        background-color: green;
+        width: 50vw;
+        height: 50vh;
+    }
+    75%{
+        background-color: blueviolet;
+        width: 75vw;
+        height: 75vh;
+    }
+    100%{
+        background-color: blue;
+        width: 99vw;
+        height: 99vh;
+    }
+} */
+
+/* @keyframes rotateDiv{
+    0%{
+        transform: rotateX(120deg);
+    }
+    50%{
+        transform: rotateX(240deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+} */
+ @keyframes rotateDiv{
+    0%{
+        transform:translateX(0px) rotate(0deg);
+    }
+    100%{
+        transform: translateX(100vw) rotate(360deg);
+    }
+}
+ @keyframes rotatep{
+    0%{
+        transform:translateX(100vw) rotate(360deg);
+    }
+    100%{
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+img{
+    width: 100px;
+    height:100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    animation: rotateimg 2s linear 0.5s infinite;
+}
+
+@keyframes rotateimg{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(120deg);
+    }
+    50%{
+        transform: rotate(240deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+span{
+    display: inline-block;
+    margin-top: 30px;
+    background:linear-gradient(blueviolet,cyan,brown);
+    width: 100px;
+    height: 100px;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-name: bouncespan;
+}
+@keyframes bouncespan{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}

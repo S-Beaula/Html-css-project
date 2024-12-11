@@ -1,0 +1,15 @@
+h1{
+    background-color: mediumslateblue;
+    color:brown;
+}
+h2{
+    background-color: cornflowerblue;
+    color: black;
+    font-style:unset;
+}
+h3{
+    color: crimson;
+}
+h5{
+    text-align: right;
+}

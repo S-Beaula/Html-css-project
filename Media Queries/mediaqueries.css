@@ -1,0 +1,82 @@
+body{
+    background-color: blueviolet;
+}
+img{
+    width: 20vw;
+}
+@media screen and (min-width:0px) and (max-width:400px){
+    body{
+        background-color: chartreuse;
+    }
+    p{
+        font-size: 1rem;
+    }
+    img{
+        border-radius: 30px;
+        /* width: 15vw; */
+    }
+    .img1{
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:768px){
+    body{
+        background-color: gold;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    img{
+        border-radius: 60px;
+        /* width: 30vw; */
+    }
+    .img1{
+        border-radius: 60px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    body{
+        background-color: blue;
+    }
+    p{
+        font-size: 2rem;
+    }
+    img{
+        border-radius: 90px;
+        /* width: 45vw; */
+    }
+    .img1{
+        border-radius: 90px;
+    }
+}
+@media (min-width:1025px) and (max-width:1440px){
+    body{
+        background-color: green;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    img{
+        border-radius: 120px;
+        /* width: 60vw; */
+    }
+    .img1{
+        border-radius: 120px;
+    }
+}
+@media (min-width:1441px) and (max-width:2250px){
+    body{
+        background-color: red;
+    }
+    p{
+        font-size: 3rem;
+    }
+    img{
+        border-radius: 150px;
+        /* width: 75vw; */
+    }
+    .img1{
+        border-radius: 150px;
+    }
+}

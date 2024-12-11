@@ -1,0 +1,60 @@
+.Parentcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 100px 100px;
+  
+}
+.p{
+   
+    background-color: darkgrey;
+    color: black;
+    font-weight:bold;
+    margin: 0px 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.ParentContainer{
+    display:flex;
+    justify-content: center;
+    margin: 100px 100px;
+    row-gap: 100px;
+    
+}
+h3{
+    background-color:#605678;
+    color: white;
+    font-weight: bolder;
+    justify-content:center;
+    padding: 20px;
+    flex-grow: 10;
+    align-content: center;
+}
+.p1{
+    background-color:#605678;
+    color: white;
+    font-weight:bold;
+    padding: 10px;
+    flex-grow: 1;
+    align-content: center;
+}
+button{
+    background-color:#605678;
+    color: white;
+    justify-content:center;
+    padding: 10px;
+    flex-grow: 20;
+    border-radius: 10px;
+}
+.parentcontainer{
+    display:flex;
+    justify-content: center;
+    margin: 0px 100px;
+}
+.p2{
+    background-color:black;
+    color: white;
+    font-weight:bold;
+    padding: 20px;
+    flex-grow: 0.1;
+    align-content: center;
+}

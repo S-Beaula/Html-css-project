@@ -1,0 +1,97 @@
+h1{
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: underline;
+}
+#sec-1{
+    font-size:30px;
+    text-shadow: 500px;
+    text-decoration: aqua;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    text-shadow: 1px 1px 10px;
+    
+    
+}
+#sec-2{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px;
+
+}
+#sec-3{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-shadow: 2px 2px;
+}
+body{
+  background-image:url("https://tse4.mm.bing.net/th?id=OIP.CxcZ6f2TxWBnuZZoOPjOugHaE8&pid=Api&P=0&h=180");
+  background-repeat: repeat-x;
+  background-size: 500px;
+}
+
+.outer-box{
+    background-color: chartreuse;
+    width: 100%;
+    height: 100%;
+    color: black;
+    position:relative;
+    top: 50px;
+    background: linear-gradient(to bottom right,green, yellow, silver);
+}
+
+h2{
+    background-color: coral;
+    color: black;
+    text-align: center;
+}
+.box-1{
+    background-color:aquamarine;
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    background-repeat:no-repeat;
+    position:relative;
+    left: 600px;
+    text-align: center;
+    border: 3px solid blue;
+}
+.box-2{
+    background-color:aquamarine;
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    background-repeat:no-repeat;
+    position:relative;
+    left: 600px;
+    text-align: center;  
+    border: 3px solid blue;
+}
+.box-3{
+    background-color:aquamarine;
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    background-repeat:no-repeat;
+    position:relative;
+    left: 600px;
+    text-align: center;
+    border: 3px solid blue;
+}
+
+   
+h3{
+    color: blueviolet;
+    font-size:20px;
+    font-weight: bold;
+
+}
+p{
+    color: brown;
+}
